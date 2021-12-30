@@ -66,10 +66,12 @@ public class FirstFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view1 = inflater.inflate(R.layout.fragment_first, container, false);
-        textView = view1.findViewById(R.id.textview_1);
+
 
         View.OnClickListener s = Navigation.createNavigateOnClickListener(R.id.action_firstFragment_to_secondFragment);
+        textView = view1.findViewById(R.id.textview_1);
         textView.setOnClickListener(s);
+
 
         return view1;
     }

@@ -8,11 +8,20 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/textview_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:text="This is First Fragment"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/textview_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="1"
         android:gravity="center"
+        android:layout_gravity="center_vertical"
         android:textSize="100dp"
         android:textColor="@color/white"
         />
